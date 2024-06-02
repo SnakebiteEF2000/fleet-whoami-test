@@ -1,0 +1,8 @@
+helm:
+  releaseName: gitea
+  chart: "gitea-charts/gitea"
+  repo: "https://dl.gitea.com/charts/"
+  force: false
+  timeoutSeconds: 3
+  values: 
+    replicas: 2
